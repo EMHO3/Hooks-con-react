@@ -1,5 +1,6 @@
 //UsuariosComponentimport { ContadorComponentes } from "./componentes/ContadorComponentes"
-import { FormularioComponente } from "./componentes/FormularioComponente"
+import { CalculosPesados } from "./componentes/CalculosPesados"
+//import { FormularioComponente } from "./componentes/FormularioComponente"
 //import { UsuariosComponent } from "./componentes/UsuariosComponent"
 
 export const HooksApp = () => {
@@ -7,7 +8,7 @@ export const HooksApp = () => {
     <>
     <h1>Aplicacion de hooks</h1>
     <hr/>
-    <FormularioComponente></FormularioComponente>
+    <CalculosPesados></CalculosPesados>
     </>
   )
 }
